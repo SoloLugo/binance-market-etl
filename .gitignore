@@ -1,0 +1,12 @@
+# Ignorar entornos virtuales y caché de Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Ignorar los datos pesados y reportes generados
+data/raw/
+data/processed/
+data/reports/
+
+# Ignorar variables de entorno o credenciales secretas
+.env
